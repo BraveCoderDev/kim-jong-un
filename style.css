@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+img {
+  width: 100%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+h1:hover {
+  color: gold;
+  transition: color 0.3s ease;
+}
+
+p {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #f0f0f0;
+}
+.footer {
+  color: white;
+  text-align: center;
+}
+
+.motivational-post {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-top: 50px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .motivational-post {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
