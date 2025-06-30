@@ -36,6 +36,13 @@ p {
   text-align: center;
 }
 
+.next-memes {
+  text-align: center;
+}
+button {
+  padding: 10px;
+  background-color: aqua;
+}
 @media (max-width: 768px) {
   .motivational-post {
     width: 80%;
